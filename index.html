@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aptitude Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>APTITUDE TEST(PHYSICS)</h1>
+    <div id="quiz-container">
+      <div id="question">Question 1: What is 2 + 2?</div>
+      <ul id="answers">
+        <li><button onclick="checkAnswer(4)">A. 4</button></li>
+        <li><button onclick="checkAnswer(5)">B. 5</button></li>
+        <li><button onclick="checkAnswer(6)">C. 6</button></li>
+      </ul>
+      <button id="next-button" onclick="nextQuestion()" style="display: none;">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
